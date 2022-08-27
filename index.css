@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(60deg, #e3d2ce, #dfc1b8);
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #eee2dc;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgba(114, 110, 110, 0.5);
+  padding: 60px;
+  width: 400px;
+  max-width: 100%;
+}
+
+.social{
+padding:15px;
+}
+
+.icons{
+ padding:5px 5px;
+ color:#290916;
+ border: 1px solid #290916;
+ border-radius: 50%;
+ transition: all 0.3s ease-in-out;
+}
+
+.icons:hover{
+  background-color:#fff;
+  border:1px solid #fff;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+
+.btn {
+  background-color: #fff;
+  border: 1px solid #e3d2ce;
+  border-radius: 5px;
+  color: rgb(17, 53, 23);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 13px;
+  padding: 3px;
+  width: 60%;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+color: #fff;
+background-color: #dfc1b8;
+border: 1px solid #290916;
+box-shadow: 3px 3px 6px rgba(62, 26, 52, 0.3);
+}
+
+.btn:active{
+  background-color:#dfc1b8;
+  color: #e3d2ce;
+  opacity:0.3;
+}
+
+
+.btn img {
+  height: 25px;
+  width: 22px;
+}
+
+
+.view-image {
+  height: 40px;
+  width: 30px;
+  display: flex;
+}
+
+a {
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+}
+
+.deco {
+  text-decoration: underline;
+}
+
+.deco:hover {
+  color: navy;
+}
+
+form h2 {
+  text-align: center;
+  color: #ac3b61;
+  line-height: 1.3em;
+  margin-bottom: 20px;
+  word-spacing: 0.1em;
+}
+
+.form-control {
+  padding: 6px;
+}
+
+input {
+  border: 2px solid #e3d2ce;
+  border-radius: 8px;
+  padding: 7px;
+  width: 210px;
+  transition: all 0.1s ease;
+}
+
+input:hover {
+  border: 2px solid #669999;
+}
+
+.btn.btn-secondary {
+  background-color: #e3d2ce;
+  border: 1px solid #ac3b61;
+  border-radius: 5px;
+  color:#333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 13px;
+  padding: 3px;
+  width: 46%;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.btn.btn-secondary:hover{
+  background-color: #ac3b61;
+  color: #e3d2ce;
+  box-shadow: 3px 3px 6px rgba(62, 26, 52, 0.3);
+
+}
+
+.btn.btn-secondary:active{
+  background-color: #ac3b61;
+  color: #e3d2ce;
+  opacity:0.5;
+}
+
+small {
+  padding: 10px;
+  color: #333;
+  font-size: 11px;
+}
+
+p {
+  padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  
+}
